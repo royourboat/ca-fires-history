@@ -15,7 +15,7 @@ jobs:
     - name: Fetch latest data
       run: |
          chmod +x ./test.sh
-         ./test.sh  > incidents_test.json
+         ./test.sh  > incidents_test.json 
       shell: bash
     - name: Commit and push if it changed
       run: |-
